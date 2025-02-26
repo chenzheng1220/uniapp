@@ -28,4 +28,6 @@ const http = (options) => {
 		})
 	})
 }
+
+
 export default http

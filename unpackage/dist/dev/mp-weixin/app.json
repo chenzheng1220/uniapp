@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/file/index"
+    "pages/file/index",
+    "pages/about/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
+    "navigationBarTitleText": "乐记笔记",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
@@ -23,6 +24,10 @@
       {
         "pagePath": "pages/file/index",
         "text": "归档"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "关于博客"
       }
     ]
   },

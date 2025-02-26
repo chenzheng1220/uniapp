@@ -3,7 +3,6 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页",
 				"backgroundTextStyle":"dark",
 				"enablePullDownRefresh": true,
 				"onReachBottomDistance": 50
@@ -13,7 +12,16 @@
 		{
 			"path": "pages/file/index",
 			"style": {
-				"navigationBarTitleText": "归档",
+				"backgroundTextStyle":"dark",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50
+				
+			}
+		},
+		
+		{
+			"path": "pages/about/index",
+			"style": {
 				"backgroundTextStyle":"dark",
 				"enablePullDownRefresh": true,
 				"onReachBottomDistance": 50
@@ -23,7 +31,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "乐记笔记",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -41,6 +49,11 @@
 			{
 				"pagePath": "pages/file/index",
 				"text": "归档"
+			},
+		
+			{
+				"pagePath": "pages/about/index",
+				"text": "关于博客"
 			}
 		]
 		

@@ -1,0 +1,1 @@
+<view class="about"><view class="text">{{a}}</view></view>

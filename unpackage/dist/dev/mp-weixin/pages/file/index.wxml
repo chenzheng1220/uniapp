@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="{{a}}"></image><view class="text-area"><text class="title">{{b}}</text></view></view>
+<view class="file"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="item"><view class="date">{{item.a}}</view><view wx:for="{{item.b}}" wx:for-item="obj" class="articles"><text class="title">{{obj.a}}</text><text class="releaseTime">[{{obj.b}}]</text></view></view></view>
