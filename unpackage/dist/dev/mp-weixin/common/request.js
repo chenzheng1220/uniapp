@@ -35,4 +35,3 @@ const http = (options) => {
   });
 };
 exports.http = http;
-//# sourceMappingURL=../../.sourcemap/mp-weixin/common/request.js.map

@@ -1,1 +1,1 @@
-<view class="about"><view class="text">{{a}}</view></view>
+<view class="about"><view class="text"><mp-html wx:if="{{a}}" u-i="716ac384-0" bind:__l="__l" u-p="{{a}}"/></view></view>

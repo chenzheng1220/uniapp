@@ -20,4 +20,3 @@ function getSettingsDetail(data) {
 exports.getArticleList = getArticleList;
 exports.getFileList = getFileList;
 exports.getSettingsDetail = getSettingsDetail;
-//# sourceMappingURL=../../.sourcemap/mp-weixin/common/index.js.map

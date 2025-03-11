@@ -17,4 +17,3 @@ const operate = {
   }
 };
 exports.operate = operate;
-//# sourceMappingURL=../../.sourcemap/mp-weixin/common/operate.js.map

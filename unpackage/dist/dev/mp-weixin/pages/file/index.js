@@ -17,7 +17,8 @@ const _sfc_main = {
             b: common_vendor.f(item.articles, (obj, k1, i1) => {
               return {
                 a: common_vendor.t(obj.title),
-                b: common_vendor.t(obj.releaseTime)
+                b: common_vendor.t(obj.releaseTime),
+                c: obj.id
               };
             }),
             c: item.date
@@ -28,4 +29,3 @@ const _sfc_main = {
   }
 };
 wx.createPage(_sfc_main);
-//# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/file/index.js.map

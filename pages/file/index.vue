@@ -2,7 +2,7 @@
 	<view class="file">
 		<view class="item" v-for="item in list" :key="item.date">
 			<view class="date">{{item.date}}</view>
-			<view class="articles" v-for="obj in item.articles">
+			<view class="articles" v-for="obj in item.articles" :key="obj.id">
 				<text class="title">{{obj.title}}</text>
 				<text class="releaseTime">[{{obj.releaseTime}}]</text>
 			</view>
