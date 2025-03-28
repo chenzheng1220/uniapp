@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/file/index",
-    "pages/about/index"
+    "pages/about/index",
+    "pages/article/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -19,15 +20,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "static/10.png",
+        "selectedIconPath": "static/11.png"
       },
       {
         "pagePath": "pages/file/index",
-        "text": "归档"
+        "text": "归档",
+        "iconPath": "static/20.png",
+        "selectedIconPath": "static/21.png"
       },
       {
         "pagePath": "pages/about/index",
-        "text": "关于博客"
+        "text": "关于博客",
+        "iconPath": "static/30.png",
+        "selectedIconPath": "static/31.png"
       }
     ]
   },

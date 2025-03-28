@@ -2,9 +2,11 @@
 	<view class="file">
 		<view class="item" v-for="item in list" :key="item.date">
 			<view class="date">{{item.date}}</view>
-			<view class="articles" v-for="obj in item.articles">
-				<text class="title">{{obj.title}}</text>
-				<text class="releaseTime">[{{obj.releaseTime}}]</text>
+			<view class="articles" v-for="obj in item.articles" :key="obj.id">
+				<navigator :url="`/pages/article/index?id=${obj.id}`"  hover-class="other-navigator-hover">
+					<text class="title">{{obj.title}}</text>
+					<text class="releaseTime">[{{obj.releaseTime}}]</text>
+				</navigator>
 			</view>
 		</view>
 	</view>

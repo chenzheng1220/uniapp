@@ -17,6 +17,12 @@ function getSettingsDetail(data) {
     url: "/getSettingsDetail"
   });
 }
+function getArticle(id) {
+  return common_request.http({
+    url: `/getArticle?id=${id}`
+  });
+}
+exports.getArticle = getArticle;
 exports.getArticleList = getArticleList;
 exports.getFileList = getFileList;
 exports.getSettingsDetail = getSettingsDetail;

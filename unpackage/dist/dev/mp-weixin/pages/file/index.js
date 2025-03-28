@@ -17,7 +17,9 @@ const _sfc_main = {
             b: common_vendor.f(item.articles, (obj, k1, i1) => {
               return {
                 a: common_vendor.t(obj.title),
-                b: common_vendor.t(obj.releaseTime)
+                b: common_vendor.t(obj.releaseTime),
+                c: `/pages/article/index?id=${obj.id}`,
+                d: obj.id
               };
             }),
             c: item.date

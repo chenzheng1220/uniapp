@@ -1,15 +1,19 @@
 <template>
 	<view class="index">
+		
 		<view class="item" v-for="item in list" :key="item.id">
-			<view class="imageBox">
-				<image class="articleCover" :src="item.articleCover"></image>
-			</view>
-			<view class="text">
-			<!-- 	<view class="title">{{item.title}}</view> -->
-				<text class="introduction">{{item.introduction}}</text>
-				<view class="releaseTime">{{item.releaseTime}}</view>
-			</view>
+			<navigator :url="`/pages/article/index?id=${item.id}`"  hover-class="other-navigator-hover">
+				<view class="imageBox">
+					<image class="articleCover" :src="item.articleCover"></image>
+				</view>
+				<view class="text">
+				<!-- 	<view class="title">{{item.title}}</view> -->
+					<text class="introduction">{{item.introduction}}</text>
+					<view class="releaseTime">{{item.releaseTime}}</view>
+				</view>
+			</navigator>
 		</view>
+		
 	</view>
 </template>
 
@@ -22,6 +26,7 @@
 	 keyword:''
  });
  const list = ref([]);
+	
  onMounted(async() => {
 	
 	 const res = await getArticleList(state);
@@ -43,6 +48,10 @@
 			display:flex;
 			background-color:#ffffff;
 			padding:24rpx;
+			navigator{
+				width:100%;
+				display:flex;
+			}
 			.imageBox{
 				width:120rpx;
 				height:120rpx;

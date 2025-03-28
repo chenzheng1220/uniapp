@@ -21,7 +21,8 @@ const _sfc_main = {
             a: item.articleCover,
             b: common_vendor.t(item.introduction),
             c: common_vendor.t(item.releaseTime),
-            d: item.id
+            d: `/pages/article/index?id=${item.id}`,
+            e: item.id
           };
         })
       };

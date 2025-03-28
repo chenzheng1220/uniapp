@@ -38,6 +38,10 @@
   background-color: #ffffff;
   padding: 24rpx;
 }
+.index .item navigator {
+  width: 100%;
+  display: flex;
+}
 .index .item .imageBox {
   width: 120rpx;
   height: 120rpx;

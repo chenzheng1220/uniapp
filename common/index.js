@@ -18,3 +18,8 @@ export function getSettingsDetail(data){
 		url:'/getSettingsDetail'
 	})
 }
+export function getArticle(id){
+	return http({
+		url:`/getArticle?id=${id}`
+	})
+}
